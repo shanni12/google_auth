@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<script src="https://apis.google.com/js/platform.js" async defer></script>
+		<meta name="google-signin-client_id" content={{ client_id }} />
+        <script src="/static/js/google_login.js"></script>
+	</head>
+
+	<body>
+		<div class="g-signin2" data-onsuccess="onSignIn"></div>
+		<a href="#" onclick="signOut()">Sign out</a>
+	</body>
+</html>
+
+
